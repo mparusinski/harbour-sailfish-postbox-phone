@@ -5,6 +5,7 @@ RPMS/*
 harbour-filedrop-receiver
 src/harbour-filedrop-receiver
 tests/tst-harbour-filedrop-receiver
+final-rpm-for-harbour-submission/*
 
 # Something Qt Creator generates
 debugsources.list
