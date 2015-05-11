@@ -1,13 +1,13 @@
-Name: harbour-helloworld-pro-sailfish
-Summary: Helloworld Pro for Sailfish
-Version: 0.6
-Release: 6
+Name: harbour-filedrop-receiver
+Summary: filedrop-receiver talks to any filedrop clients running on the local network and offers easy file transfers from the Desktop to the Jolla phone
+Version: 0.1
+Release: 1
 Group: Qt/Qt
-License: Public domain except for the icon
+License: BSD-3
 Sources:
 - '%{name}-%{version}.tar.bz2'
 Description: |-
-  Missing Helloworld for Sailfish OS. Use this project for a good app start
+  Together with filedrop on the Desktop, filedrop-receiver creates a bridge between your computer and the phone for easy file transfers
 Configure: none
 Builder: qtc5
 QMakeOptions:
@@ -34,17 +34,17 @@ PkgBR: []
 
 SubPackages:
     - Name: test
-      Summary: Tests for the Helloworld Pro for Sailfish
+      Summary: Tests for the filedrop-receiver for Sailfish
       Group: Qt/Qt
       Description: |-
-        Tests package for the Helloworld Pro for Sailfish
+        Tests package for the filedrop-receiver for Sailfish
       AutoDepend: true
       PkgConfigBR:
       - Qt5QuickTest
       Requires:
       - qt5-qtdeclarative-import-qttest
       Files:
-        - '%{_bindir}/tst-harbour-helloworld-pro-sailfish'
-        - '%{_datadir}/tst-harbour-helloworld-pro-sailfish/*.qml'
+        - '%{_bindir}/tst-harbour-filedrop-receiver'
+        - '%{_datadir}/tst-harbour-filedrop-receiver/*.qml'
         # Script for starting tests on emulator and device
-        - '%{_datadir}/tst-harbour-helloworld-pro-sailfish/*.sh'
+        - '%{_datadir}/tst-harbour-filedrop-receiver/*.sh'

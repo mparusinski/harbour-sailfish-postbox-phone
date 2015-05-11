@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Name=Filedrop Receiver
+Icon=harbour-filedrop-receiver
+Exec=harbour-filedrop-receiver
