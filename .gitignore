@@ -2,9 +2,9 @@
 RPMS/*
 
 # Binaries are created in the project folder (Sailfish SDK doesn't support shadow building yet)
-harbour-helloworld-pro-sailfish
-src/harbour-helloworld-pro-sailfish
-tests/tst-harbour-helloworld-pro-sailfish
+harbour-postbox
+src/harbour-postbox
+tests/tst-harbour-postbox
 
 # Something Qt Creator generates
 debugsources.list
