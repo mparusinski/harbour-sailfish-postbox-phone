@@ -1,7 +1,7 @@
 TEMPLATE=app
 # The name of your app binary (and it's better if you think it is the whole app name as it's referred to many times)
 # Must start with "harbour-"
-TARGET = harbour-filedrop-receiver
+TARGET = harbour-sailfish-postbox-phone
 
 # In the bright future this config line will do a lot of stuff to you
 CONFIG += sailfishapp

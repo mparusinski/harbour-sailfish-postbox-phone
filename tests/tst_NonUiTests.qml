@@ -16,7 +16,7 @@ import QtTest 1.0
 // At design-time I uncomment import "../src/qml/pages" so that QtCreator auto-completion would work
 
 //import "../src/qml/pages"
-import "../harbour-filedrop-receiver/qml/pages"
+import "../harbour-sailfish-postbox-phone/qml/pages"
 
 TestCase {
     name: "SailCalcTest"

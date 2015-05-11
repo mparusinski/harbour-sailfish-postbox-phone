@@ -86,7 +86,8 @@ def check_args(args):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('newName', help='New name of your program')
-    parser.add_argument('--originalName', nargs='?', default='harbour-helloworld-pro-sailfish', help="When changing your app name second and more times, use this argument to give your current app name. Default is %(default)s")
+    parser.add_argument('--originalName', nargs='?',
+            default='harbour-filedrop-receiver', help="When changing your app name second and more times, use this argument to give your current app name. Default is %(default)s")
     parser.add_argument('--ignoredDirs', nargs='*', default=['.git'], help="If you want to ignore multiple directories' content from name replacing, give a list of dir paths separated with space. Default is %(default)s")
     parser.add_argument('--ignoredFiles', nargs='*', default=[SCRIPT_NAME], help="If you want to ignore multiple files from name replacing, give a list of file paths separated with space. Default is %(default)s")
     if len(sys.argv) == 1:

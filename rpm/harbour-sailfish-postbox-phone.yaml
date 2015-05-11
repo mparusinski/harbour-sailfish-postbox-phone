@@ -1,4 +1,4 @@
-Name: harbour-filedrop-receiver
+Name: harbour-sailfish-postbox-phone
 Summary: filedrop-receiver talks to any filedrop clients running on the local network and offers easy file transfers from the Desktop to the Jolla phone
 Version: 0.1
 Release: 1
@@ -44,7 +44,7 @@ SubPackages:
       Requires:
       - qt5-qtdeclarative-import-qttest
       Files:
-        - '%{_bindir}/tst-harbour-filedrop-receiver'
-        - '%{_datadir}/tst-harbour-filedrop-receiver/*.qml'
+        - '%{_bindir}/tst-harbour-sailfish-postbox-phone'
+        - '%{_datadir}/tst-harbour-sailfish-postbox-phone/*.qml'
         # Script for starting tests on emulator and device
-        - '%{_datadir}/tst-harbour-filedrop-receiver/*.sh'
+        - '%{_datadir}/tst-harbour-sailfish-postbox-phone/*.sh'

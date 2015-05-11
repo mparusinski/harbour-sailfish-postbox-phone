@@ -1,7 +1,7 @@
 TEMPLATE = app
 
 # The name of your app
-TARGET = tst-harbour-filedrop-receiver
+TARGET = tst-harbour-sailfish-postbox-phone
 
 CONFIG += qmltestcase
 
